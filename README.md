@@ -2,6 +2,11 @@
 
 This template should help get you started developing with Svelte in Vite.
 
+## Website live 
+[HERE](https://bedrockui.vercel.app/)
+
+![Screenshot of my project](public/images/screenshot.png)
+
 ## Recommended IDE Setup
 
 [VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
