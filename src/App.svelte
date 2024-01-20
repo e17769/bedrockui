@@ -1,6 +1,5 @@
 <script>
-
-  import { Link, Router, Route } from 'svelte-routing';
+import { Link, Router, Route } from 'svelte-routing';
 import Images from './routes/images/page.svelte';
 import Chat from './routes/chat/page.svelte';
 import Home from './routes/Home.svelte';
