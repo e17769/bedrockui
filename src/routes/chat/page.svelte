@@ -151,6 +151,7 @@
                 <div class="p-4 border-t flex">
                     <input
                         bind:value={userInput}
+                        on:keydown={handleKeydown}
                         id="user-input"
                         type="text"
                         placeholder="Type a message"
