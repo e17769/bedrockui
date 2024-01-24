@@ -30,6 +30,12 @@
         }, 500);
     }
 
+    function handleKeydown(event) {
+        if (event.key === 'Enter') {
+            sendMessage();
+        }
+    }
+
     function sendMessage() {
         if (userInput.trim() !== "") {
             console.log(userInput);
@@ -152,6 +158,7 @@
                     />
                     <button
                         on:click={sendMessage}
+                         on:keydown={handleKeydown}
                         id="send-button"
                         class="bg-blue-500 text-white px-4 py-2 rounded-r-md hover:bg-blue-600 transition duration-300"
                         >Send</button
