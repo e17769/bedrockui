@@ -1,4 +1,4 @@
-# Svelte + Vite
+# Svelte + Vite  ![Vercel Deploy](https://therealsujitk-vercel-badge.vercel.app/?app=bedrockui)
 
 This template should help get you started developing with Svelte in Vite.
 
